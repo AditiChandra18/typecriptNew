@@ -9,8 +9,8 @@ export const wineTypes = [
 
 export const TableCols = [
     { id: "winery", label: "Winery" },
-    { id: "wineName", label: "Wine Name" },
-    { id: "averageRating", label: "Average Rating"},
-    { id: "reviews", label: "Reviews" },
+    { id: "wine", label: "Wine Name" },
+    { id: "rating.average", label: "Average Rating"},
+    { id: "rating.reviews", label: "Reviews" },
     { id: "location", label: "Location" },
 ];

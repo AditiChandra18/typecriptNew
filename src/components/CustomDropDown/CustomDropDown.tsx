@@ -4,7 +4,7 @@ import { CustomDropDownProps, Option } from "./interface";
 const CustomDropDown: React.FC<CustomDropDownProps> = ({ label, onSelect, value, options }: CustomDropDownProps) => {
 
     return (
-        <FormControl sx={{width:"50%" }} className="dropdown-container">
+        <FormControl sx={{width:"50%" }}>
             <InputLabel>{label}</InputLabel>
             <Select value={value} onChange={onSelect}>
                 {options.map((option: Option) => (

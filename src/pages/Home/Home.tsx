@@ -49,18 +49,18 @@ const Home: React.FC = () => {
 
     return (
         <>
-            <div className="home-container">
+            <div>
                 <h1>Welcome!!!!</h1>
                 <button onClick={handleModal}>Fill Details</button>
             </div>
-            <div className="dropdown-container">
+            <div>
                 <CustomDropDown
                     label={"Select your wine type"}
                     onSelect={handleSelectedItem}
                     value={selectedType}
                     options={wineTypes}
                 />
-                <div className="table-container">
+                <div>
                     <CustomTable data={data} columns={TableCols} loading={loading} />
                 </div>
             </div>
