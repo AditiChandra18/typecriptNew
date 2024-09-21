@@ -1,0 +1,28 @@
+/* CustomModal.css */
+.modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .modal-container input[type="text"],
+  .modal-container input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .modal-container input[type="text"]:focus,
+  .modal-container input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
